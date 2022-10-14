@@ -99,7 +99,7 @@ const data = [
   },
   {
     id: '15',
-    name: 'İhsan KAYA',
+    name: 'İhsan SAYGILI',
     age: 17,
     image: 'https://randomuser.me/api/portraits/men/58.jpg',
     email: 'jacob.neal@clarusway.com',
@@ -120,7 +120,7 @@ const data = [
   },
   {
     id: '18',
-    name: 'Erhan Mavideniz',
+    name: 'Erhan FIRTINA',
     age: 32,
     image: 'https://randomuser.me/api/portraits/women/17.jpg',
     email: 'victoria.butler@clarusway.com',
