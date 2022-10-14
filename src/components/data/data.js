@@ -113,7 +113,7 @@ const data = [
   },
   {
     id: '17',
-    name: 'Nurhan Legend',
+    name: 'Burhan Legend',
     age: 34,
     image: 'https://randomuser.me/api/portraits/women/58.jpg',
     email: 'zoe.ohrimovich@clarusway.com',
