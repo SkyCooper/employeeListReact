@@ -1,12 +1,12 @@
-import bigData from "../data/data";
+import data from "../data/data";
 import { useState } from "react";
 import Employee from "./Employee";
 
 const Main = () => {
-  const data = bigData;
+  // const data = bigData;
   // const [data, setData] = useState(bigData);
   const [person, setPerson] = useState(data.slice(0, 5));
-  const [number, setNumber] = useState(0);
+  let [number, setNumber] = useState(0);
 
   const handlePrev = () => {
     let changedNumber = number - 5;
@@ -14,11 +14,26 @@ const Main = () => {
     setNumber(changedNumber);
     setPerson(data.slice(changedNumber, changedNumber + 5));
   };
+
+  // const handlePrev = () => {
+  //   number -= 5;
+  //   number < 0 && (number = data.length - 5);
+  //   setNumber(number);
+  //   setPerson(data.slice(number, number + 5));
+  // };
+
+  // const handleNext = () => {
+  //   let changedNumber = number + 5;
+  //   changedNumber > data.length - 1 && (changedNumber = 0);
+  //   setNumber(changedNumber);
+  //   setPerson(data.slice(changedNumber, changedNumber + 5));
+  // };
+
   const handleNext = () => {
-    let changedNumber = number + 5;
-    changedNumber > data.length - 1 && (changedNumber = 0);
-    setNumber(changedNumber);
-    setPerson(data.slice(changedNumber, changedNumber + 5));
+    number += 5;
+    number > data.length - 1 && (number = 0);
+    setNumber(number);
+    setPerson(data.slice(number, number + 5));
   };
 
   return (
