@@ -1,10 +1,10 @@
-# Project : Template
+# Project : Employee List
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
+## Check The Live Website ➡️ [https://cooper-employee-react.netlify.app/]
 
 ## Visualization of the Website
 
-![Form](./gallery.gif)
+![Form](./list.gif)
 
 ## Description
 
