@@ -4,7 +4,7 @@
 
 ## Visualization of the Website
 
-![Form](./list.gif)
+![Form](./src/list.gif)
 
 ## Description
 
