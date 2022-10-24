@@ -8,7 +8,7 @@
 
 ## Description
 
-Project aims to create an image gallery app using React.
+Project aims to create an Employee List app using React.
 
 ## Learning Outcomes
 
@@ -25,22 +25,23 @@ At the end of the project, you will be able to;
 ## Project Skeleton
 
 ```
-Image Gellery Project(folder)
+Employee List Project(folder)
 |
 |----README.md
 ├── public
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── Picture.jsx
-│    ├── pages
-│    │       ├── Homepage.jsx
-│    ├── helper
-│    │       └── data.js
-│    ├── styles
-│    │       ├── style.css
+│    │       ├── data
+│    │             ├── data.js
+│    │       ├── main
+│    │             ├── Emoloyee.jsx
+│    │             ├── Main.jsx
 │    ├── App.js
 │    ├── index.js
+│    ├── App.css
+│    ├── index.css
+│    ├── list.gif
 └── package.json
 ```
 
@@ -53,15 +54,13 @@ You can see the visual representation of the website above.
 
 - Step 1: Create React App using `npx create-react-app image-gallery`
 
-- Step 2: For images you can use [Images](./src/helper/data.js).
+- Step 2: Push your application into your own public repo on Github
 
-- Step 3: Push your application into your own public repo on Github
-
-- Step 4: Add project gif to your project and README.md file.
+- Step 3: Add project gif to your project and README.md file.
 
 ## Resources
 
-- 🔥 You can use [`data.js`](./src/helper/data.js) for your own work.
+- 🔥 You can use [`data.js`](./src/components/data/data.js) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
